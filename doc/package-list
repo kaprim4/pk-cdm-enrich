@@ -1,0 +1,12 @@
+procheck.dev.enrich
+procheck.dev.enrich.cmc7
+procheck.dev.enrich.dao
+procheck.dev.enrich.document
+procheck.dev.enrich.ocr
+procheck.dev.enrich.testsuite
+procheck.dev.enrich.threads
+procheck.dev.enrich.threads.captureweb
+procheck.dev.enrich.threads.gab
+procheck.dev.enrich.threads.lpk
+procheck.dev.enrich.threads.lrf
+procheck.dev.enrich.tools

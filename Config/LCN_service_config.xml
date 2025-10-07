@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_201" class="java.beans.XMLDecoder">
+	<object class="procheck.dev.enrich.ocr.ServerConfig">
+		<void property="ipCmc7Server">
+			<string>10.2.1.92</string>
+		</void>
+		<void property="portCmc7Server">
+			<int>22000</int>
+		</void>
+		<void property="tesseractPatam">
+			<object
+				class="procheck.dev.enrich.ocr.ServerConfig$TesseractPatam">
+				<void property="dirParam">
+					<string>D:\Works\CDM\Tools\PKCDMEnrich\Config\tessdata</string>
+				</void>
+				<void property="lang">
+					<string>ENG</string>
+				</void>
+				<void property="whiteList">
+					<string>0123456789SX/</string>
+				</void>
+			</object>
+		</void>
+		<void property="dirList">
+			<void method="add">
+				<object
+					class="procheck.dev.enrich.ocr.ServerConfig$ImportDirectory">
+					<void property="dirPreImport">
+						<string>D:\Works\CDM\Projects\LCN\aller\Import\Grains\Enrich\CapWeb\</string>
+					</void>
+					<void property="dirImport">
+						<string>D:\Works\CDM\Projects\LCN\aller\Import\Grains\ImportV5\</string>
+					</void>
+					<void property="dirImportTop">
+						<string>D:\Works\CDM\Projects\LCN\aller\Import\Grains\ImportV5\</string>
+					</void>
+					<void property="nbMaxThread">
+						<int>10</int>
+					</void>
+					<void property="type">
+						<string>W</string>
+					</void>
+				</object>
+			</void>
+
+		</void>
+		<void property="tLot">
+			<object class="procheck.dev.enrich.ocr.ServerConfig$TLot">
+				<void property="cmc7">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0</double>
+						</void>
+						<void property="y">
+							<double>0.75</double>
+						</void>
+						<void property="w">
+							<double>0.84</double>
+						</void>
+						<void property="h">
+							<double>0.25</double>
+						</void>
+					</object>
+				</void>
+				<void property="agence">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.0577</double>
+						</void>
+						<void property="y">
+							<double>0.2500</double>
+						</void>
+						<void property="w">
+							<double>0.3205</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="reference">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.5769</double>
+						</void>
+						<void property="y">
+							<double>0.2500</double>
+						</void>
+						<void property="w">
+							<double>0.3205</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="montant">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.0577</double>
+						</void>
+						<void property="y">
+							<double>0.6875</double>
+						</void>
+						<void property="w">
+							<double>0.3205</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="nbremise">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.7821</double>
+						</void>
+						<void property="y">
+							<double>0.6875</double>
+						</void>
+						<void property="w">
+							<double>0.1603</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="datelot">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">						
+						<void property="x">
+							<double>0.5769</double>
+						</void>
+						<void property="y">
+							<double>0.6875</double>
+						</void>
+						<void property="w">
+							<double>0.1474</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+			</object>
+		</void>
+		<void property="tRemise">
+			<object class="procheck.dev.enrich.ocr.ServerConfig$TRemise">
+				<void property="cmc7">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0</double>
+						</void>
+						<void property="y">
+							<double>0.75</double>
+						</void>
+						<void property="w">
+							<double>0.84</double>
+						</void>
+						<void property="h">
+							<double>0.25</double>
+						</void>
+					</object>
+				</void>
+				<void property="agence">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.0641</double>
+						</void>
+						<void property="y">
+							<double>0.2875</double>
+						</void>
+						<void property="w">
+							<double>0.2885</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="numCompte">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.0641</double>
+						</void>
+						<void property="y">
+							<double>0.5000</double>
+						</void>
+						<void property="w">
+							<double>0.2885</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="reference">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.5769</double>
+						</void>
+						<void property="y">
+							<double>0.2875</double>
+						</void>
+						<void property="w">
+							<double>0.3205</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="montant">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.0641</double>
+						</void>
+						<void property="y">
+							<double>0.7000</double>
+						</void>
+						<void property="w">
+							<double>0.2885</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="date">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.5705</double>
+						</void>
+						<void property="y">
+							<double>0.7000</double>
+						</void>
+						<void property="w">
+							<double>0.1090</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="nbrCheque">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.7051</double>
+						</void>
+						<void property="y">
+							<double>0.7000</double>
+						</void>
+						<void property="w">
+							<double>0.0833</double>
+						</void>
+						<void property="h">
+							<double>0.1250</double>
+						</void>
+					</object>
+				</void>
+				<void property="data">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0.32</double>
+						</void>
+						<void property="y">
+							<double>0.286</double>
+						</void>
+						<void property="w">
+							<double>0.628</double>
+						</void>
+						<void property="h">
+							<double>0.66</double>
+						</void>
+					</object>
+				</void>
+			</object>
+		</void>
+		<void property="cheque">
+			<object class="procheck.dev.enrich.ocr.ServerConfig$Cheque">
+				<void property="cmc7">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0</double>
+						</void>
+						<void property="y">
+							<double>0.75</double>
+						</void>
+						<void property="w">
+							<double>0.84</double>
+						</void>
+						<void property="h">
+							<double>0.25</double>
+						</void>
+					</object>
+				</void>
+				<void property="montant">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>0</double>
+						</void>
+						<void property="y">
+							<double>0.75</double>
+						</void>
+						<void property="w">
+							<double>0.8</double>
+						</void>
+						<void property="h">
+							<double>0.25</double>
+						</void>
+					</object>
+				</void>
+			</object>
+		</void>
+		<void property="lcn">
+			<object class="procheck.dev.enrich.ocr.ServerConfig$Lcn">
+				<void property="cmc7">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>2</double>
+						</void>
+						<void property="y">
+							<double>2</double>
+						</void>
+						<void property="w">
+							<double>2</double>
+						</void>
+						<void property="h">
+							<double>2</double>
+						</void>
+					</object>
+				</void>
+				<void property="montant">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>2</double>
+						</void>
+						<void property="y">
+							<double>2</double>
+						</void>
+						<void property="w">
+							<double>2</double>
+						</void>
+						<void property="h">
+							<double>2</double>
+						</void>
+					</object>
+				</void>
+				<void property="dateEcheance">
+					<object class="procheck.dev.enrich.ocr.ServerConfig$OCRCrop">
+						<void property="x">
+							<double>2</double>
+						</void>
+						<void property="y">
+							<double>2</double>
+						</void>
+						<void property="w">
+							<double>2</double>
+						</void>
+						<void property="h">
+							<double>2</double>
+						</void>
+					</object>
+				</void>
+			</object>
+		</void>
+	</object>
+</java>
